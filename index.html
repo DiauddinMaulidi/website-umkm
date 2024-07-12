@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebab Golden</title>
+
+    <!-- STYLE CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./images/icon-removebg.png" />
+    <!-- STYLE CSS LINK -->
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP CDN LINK -->
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- FONT AWESOME CDN -->
+
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet" />
+    <!-- GOOGLE FONTS LINK -->
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg position-fixed" id="navbar">
+      <a class="navbar-brand judul-position fs-3 pt-4" href="">
+        <img src="./images/icon-removebg.png" alt="logo" width="40px" />
+        Kebab Golden</a
+      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse pt-3" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input type="text" class="form-control me-2" style="width: 15rem" placeholder="Search" required />
+          <button type="button" id="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Kebab <span>Lezat</span>, Harga <span>Bersahabat</span></h3>
+        <p>Kebab Sempurna di Kebab Golden! Kami menawarkan kebab dengan bumbu spesial dan daging berkualitas tinggi, menjamin pengalaman makan yang tak terlupakan</p>
+        <a href="#menu" id="home-btn">Menu Kami</a>
+      </div>
+      <div class="img">
+        <img src="./images/icon-removebg.png" alt="" />
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Our Menu Start -->
+    <section class="menu" id="menu">
+      <h2 style="color: #8c4a04">Menu</h2>
+      <h2 class="colorText">Pilih menu pilihan anda <i class="fa-solid fa-arrow-down"></i></h2>
+      <div class="imageMenu">
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/adana-kebab2.jpg" alt="Adana Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Adana Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star-half checked"></i>
+              <p class="card-text">Rp.20.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/Alinazik-Kebab.jpg" alt="Alinazik Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Alinazik Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.30.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/doner_kebab.jpg" alt="Doner Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Doner Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.20.500</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/shish-kebab.jpg" alt="Shish Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Shish Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.25.500</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/chapli.jpg" alt="Chapli Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Chapli Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.21.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/Lyulya_kebab.png" alt="Lyulya Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Lyulya Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.20.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/merhaba-kebab.jpg" alt="Merhaba Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Merhaba Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.20.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="imageProduct m-4">
+          <div class="cardShow rounded-3">
+            <img id="product-image" src="./images/kagit-kebab.jpg" alt="Kagit Kebab" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Kagit Kebab</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <p class="card-text">Rp.20.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our menu end -->
+
+    <div class="container">
+      <div class="line" style="width: 100%; height: 2px; background-color: #8c4a04"></div>
+    </div>
+
+    <!-- Review Section Start -->
+    <section class="review" id="reviews">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/fotoMe2.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-8 py-3 py-md-0 reviewBox" style="padding: 100px">
+          <h3>TANGGAPAN MEREKA</h3>
+          <h2>Tanggapan mereka <br />tentang <span class="colorText">Kebab Golden</span></h2>
+          <div class="reviewers">
+            <div class="col-md-6">
+              <h5 class="me-5">
+                <img src="./images/review1.jpg" alt="" width="60px" /><a href="#">Zainul Islam</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+              </h5>
+              <h5 class="me-5">
+                <img src="./images/review4.jpg" alt="" width="60px" /><a href="#">Dea Mahalini</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star-half checked"></i>
+                </div>
+              </h5>
+            </div>
+            <div class="col-md-6">
+              <h5 class="me-5">
+                <img src="./images/review3.jpg" alt="" width="60px" /><a href="#">Chila</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+              </h5>
+              <h5>
+                <img src="./images/review2.jpg" alt="" width="60px" /><a href="#">Siti Nurhaliza</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <h2 class="colorText text-center">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0">
+          <h3>Mari hubungi dibawah ini</h3>
+          <p>Kepuasan pelanggan adalah hal nomor 1 untuk kami, kami akan melayani dengan sungguh - sungguh</p>
+          <i class="fa-solid fa-phone"><span>087723456543</span></i
+          ><br /><br />
+          <i class="fa-solid fa-envelope"><span>demon@gmail.com</span></i
+          ><br /><br />
+          <i class="fa-solid fa-location-dot"><span>Pancor Selong Lombok Timur</span></i>
+        </div>
+
+        <div class="col-md-7 py-3 py-md-0">
+          <form action="#">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" id="name" placeholder="Enter Name" required />
+            </div>
+
+            <div class="mb-3 mt-3">
+              <input type="email" class="form-control" id="email" placeholder="Enter Email" required />
+            </div>
+
+            <div class="mb-3 mt-3">
+              <input type="number" class="form-control" id="number" placeholder="Enter Number" required />
+            </div>
+
+            <textarea class="form-control" id="comment" rows="5" name="text" placeholder="Enter Address" required></textarea>
+
+            <button type="submit" class="order-btn">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="f-content">
+        <h1 class="f-logo colorText">Kebab Golden</h1>
+        <p>kebab lezat, harga bersahabat, yukk mari nikmati kelezatan dari kebab di setiap gigitan!</p>
+        <a href="https://www.instagram.com/_muichiro__/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://web.facebook.com/kkaxa.adek/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/channel/UCWLaiWlrw5q0-Fu5YQwVSbQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://x.com/DiauddinMaulidi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <br />
+      <div class="c-content">
+        <p>Created By <a href="https://github.com/DiauddinMaulidi" target="_blank" class="textLink">Dia'uddin Maulidi</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./index.js"></script>
+    <!-- BOOTSTRAP CDN LINK -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP CDN LINK -->
+  </body>
+</html>
